@@ -1,0 +1,3 @@
+node_modules
+//tell git to not commit to the entire modules. (For version control)
+dev.js
