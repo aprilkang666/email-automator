@@ -4,6 +4,7 @@ Project Status: **Completed (continuously adding new features)**
 Welcome to Emaily, a web application to help you collect user feedback easily. 
 
 The is a Javascript based application utilized advanced features of React, Redux, Express, and Mongo.
+User can creates customized surveys to launch mass email campaigns. With a dashboard view, user can easily manages campaigns. The user will be deducted one credits for every campaign sent, and the user will be able to add credits with credit cards. (currently do not accept real payments)
 
 ## Demo
 
@@ -15,7 +16,7 @@ Application - [https://young-scrubland-50220.herokuapp.com/](https://young-scrub
 - React
 - Node v10.16.3
 - Frameworks: Express, Redux, Passport, OAuth2.0 Google API
-- [Google Cloud Platform](https://console.developers.google.com)
+- [Google OAuth](https://console.developers.google.com)
 - [Sendergrid](https://sendgrid.com/) to send the feedback by email and track them
 - [Mongo DB Atlas](https://www.mongodb.com/cloud/atlas) for the database
 - [Heroku](https://www.heroku.com/) for the deployment 
