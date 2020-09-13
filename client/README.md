@@ -68,8 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 Project Status: **Completed (continuously adding new features)**
 
-## Emaily - Survey Campaign Web Application
-Welcome to Emaily, a web application to help you collect user feedback easily. 
+## Survey-Quicker - Survey Campaign Web Application
+Welcome to Survey-Quicker, a web application to help you collect user feedback easily. 
 
 The is a Javascript based application utilized advanced features of React, Redux, Express, and Mongo.
 

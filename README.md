@@ -1,10 +1,10 @@
 Project Status: **Completed (continuously adding new features)**
 
-## Emaily - Survey Campaign Web Application
-Welcome to Emaily, a web application to help you collect user feedback easily. 
+## Survey-Quicker - Survey Campaign Web Application
+Welcome to Survey-Quicker, a web application to help you collect user feedback easily. 
 
-The is a Javascript based application utilized advanced features of React, Redux, Express, and Mongo.
-Emaily is an application that allows you to create and send surveys via email to hundreds of people and view survey results in your dashboard. 
+The is a JavaScript based application utilized advanced features of React, Redux, Express, and MongoDB.
+Survey-Quicker is an application that allows you to create and send surveys via email to hundreds of people and view survey results in your dashboard. 
 
 ## Demo
 
