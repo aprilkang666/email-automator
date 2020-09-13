@@ -4,7 +4,7 @@ Project Status: **Completed (continuously adding new features)**
 Welcome to Emaily, a web application to help you collect user feedback easily. 
 
 The is a Javascript based application utilized advanced features of React, Redux, Express, and Mongo.
-User can creates customized surveys to launch mass email campaigns. With a dashboard view, user can easily manages campaigns. The user will be deducted one credits for every campaign sent, and the user will be able to add credits with credit cards. (currently do not accept real payments)
+Emaily is an application that allows you to create and send surveys via email to hundreds of people and view survey results in your dashboard. 
 
 ## Demo
 
@@ -12,16 +12,14 @@ Application - [https://young-scrubland-50220.herokuapp.com/](https://young-scrub
 
 #### Note: Please input `"4242 4242 4242 4242"` as the card number when adding credits to the account.
 
-## Technologies used:
-- React
-- Node v10.16.3
-- Frameworks: Express, Redux, Passport, OAuth2.0 Google API
-- [Google OAuth](https://console.developers.google.com)
-- [Sendergrid](https://sendgrid.com/) to send the feedback by email and track them
-- [Mongo DB Atlas](https://www.mongodb.com/cloud/atlas) for the database
-- [Heroku](https://www.heroku.com/) for the deployment 
-
 ## Install
+Run `git clone https://github.com/aprilkang666/email-automator` from the terminal to fork the repository. Run `npm install` to install all dependencies. To run the application. 
+Navigate into the `server` directory, and run `npm run dev`, to start both the client, and the express server concurrently.
+
+**NOTE:**
+When forking the repository, all database/API keys are removed from GitHub for security, so the application will *not* run correctly when running `npm run dev`.
+
+**3rd party API Used**
 * Node
 * Git
 * Heroku-cli
@@ -29,8 +27,30 @@ Application - [https://young-scrubland-50220.herokuapp.com/](https://young-scrub
 * Sendgrid
 * [Create React App](https://github.com/facebook/create-react-app) ->  npm install -g create-react-app
 
-## Commands
 
-* Setting heroku repository `heroku git:remote -a emaily-api`
-* Push and Deploy `git push heroku master`
-* Open URI `heroku open`
+## Technologies
+
+### Front-End
+
+- Axios
+- Create-React-App
+- React 16
+- Reactstrap
+- Redux
+- Redux Form
+- Redux Thunk
+
+### Back-End
+
+- Body Parser
+- Concurrently
+- Cookie-Session
+- Express (Node.JS)
+- Local Tunnel
+- Lodash
+- Mongoose
+- Nodemon
+- Passport (Google OAuth 2.0)
+- Path Parser
+- SendGrid
+- Stripe
